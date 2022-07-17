@@ -1,0 +1,50 @@
+{
+  "operations": [
+    {
+      "id": "op1",
+      "title": "operation 1",
+      "startAt": "2022-07-14T10:30:00",
+      "duration": 30
+    },
+    {
+      "id": "op2",
+      "title": "operation 2",
+      "startAt": "2022-07-14T13:30:00",
+      "duration": 60
+    },
+    {
+      "id": "op3",
+      "title": "operation 3",
+      "startAt": "2022-07-14T12:30:00",
+      "duration": 30
+    },
+    {
+      "id": "op4",
+      "title": "operation 4",
+      "startAt": "2022-07-14T15:30:00",
+      "duration": 60
+    },
+    {
+      "id": "op5",
+      "title": "operation 5",
+      "startAt": "2022-07-14T10:00:00",
+      "duration": 30
+    },
+    {
+      "id": "op6",
+      "title": "operation 6",
+      "startAt": "2022-07-14T10:30:00",
+      "duration": 30
+    },
+    {
+      "id": "op7",
+      "title": "operation 7",
+      "startAt": "2022-07-14T16:00:00",
+      "duration": 90
+    }
+  ],
+  "rooms": [
+    { "id": "room1", "operations": ["op1", "op2", "op7", "op5"] },
+    { "id": "room2", "operations": ["op3", "op4", "op6"] }
+  ]
+}
